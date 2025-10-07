@@ -6,6 +6,40 @@ if ('serviceWorker' in navigator) {
   });
 }
 
+// ---- PWA Install banner (Android/Chrome) ----
+let deferredPrompt = null;
+const installBtn = document.getElementById('installBtn');
+
+// Si ya está instalada, oculta el botón
+const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
+if (isStandalone && installBtn) installBtn.classList.add('hidden');
+
+// Captura el evento y muestra tu CTA
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();                 // evita el mini-infobar de Chrome
+  deferredPrompt = e;                 // guarda el evento para usarlo luego
+  if (installBtn) installBtn.classList.remove('hidden');
+});
+
+// Al hacer clic, dispara el prompt nativo
+installBtn?.addEventListener('click', async () => {
+  if (!deferredPrompt) return;
+  installBtn.disabled = true;
+  deferredPrompt.prompt();
+  const { outcome } = await deferredPrompt.userChoice; // 'accepted' o 'dismissed'
+  // Opcional: analytics según outcome
+  deferredPrompt = null;
+  installBtn.classList.add('hidden');
+});
+
+// Cuando se instala, lo ocultamos y puedes mostrar un toast
+window.addEventListener('appinstalled', () => {
+  deferredPrompt = null;
+  installBtn?.classList.add('hidden');
+  // console.log('PWA instalada 🎉');
+});
+
+
 // Global state
 let SEGMENTS = [];         // Filled after prizes.json
 let QUESTIONS = [];        // Loaded from questions.json
