@@ -1,0 +1,452 @@
+[
+  {
+    "q": "¿Qué significa “chivo”?",
+    "a": [
+      "Algo genial o bueno",
+      "Una cabra pequeña",
+      "Estar enfermo"
+    ],
+    "c": 0
+  },
+  {
+    "q": "¿Qué significa “bicho(a)”?",
+    "a": [
+      "Niño(a) o joven",
+      "Insecto peligroso",
+      "Persona mayor"
+    ],
+    "c": 0
+  },
+  {
+    "q": "¿Qué significa “cipote(a)”?",
+    "a": [
+      "Niño(a)",
+      "Mentiroso(a)",
+      "Abuelo(a)"
+    ],
+    "c": 0
+  },
+  {
+    "q": "¿Qué significa “maje”?",
+    "a": [
+      "Amigo / tipo",
+      "Persona tacaña",
+      "Jefe"
+    ],
+    "c": 0
+  },
+  {
+    "q": "¿Qué significa “bolado”?",
+    "a": [
+      "Cosa/objeto",
+      "Golpe fuerte",
+      "Comida típica"
+    ],
+    "c": 0
+  },
+  {
+    "q": "¿Qué significa “cachimbón”?",
+    "a": [
+      "Algo muy bueno",
+      "Persona descuidada",
+      "Un gran problema"
+    ],
+    "c": 0
+  },
+  {
+    "q": "¿Qué significa “chucho”?",
+    "a": [
+      "Perro",
+      "Alguien listo",
+      "Zapato"
+    ],
+    "c": 0
+  },
+  {
+    "q": "¿Qué significa “chele”?",
+    "a": [
+      "Persona de piel clara",
+      "Persona morena",
+      "Alguien tímido"
+    ],
+    "c": 0
+  },
+  {
+    "q": "¿Qué significa “bayunco”?",
+    "a": [
+      "Tonto/travieso",
+      "Muy formal",
+      "Muy caro"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Aguantar vara” es…",
+    "a": [
+      "Soportar/resistir",
+      "Irse de fiesta",
+      "Hacer deporte"
+    ],
+    "c": 0
+  },
+  {
+    "q": "¿Qué expresa “púchica”?",
+    "a": [
+      "Sorpresa/asombro",
+      "Perdón",
+      "Tristeza"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Dundo(a)” es…",
+    "a": [
+      "Tonto o lento",
+      "Muy alegre",
+      "Muy trabajador"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Pijinear” es…",
+    "a": [
+      "Salir de fiesta",
+      "Cocinar",
+      "Estudiar"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Bolo” es…",
+    "a": [
+      "Borracho",
+      "Estudioso",
+      "Cansado"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Chunche” es…",
+    "a": [
+      "Cualquier objeto",
+      "Perro pequeño",
+      "Carro viejo"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Maceta” es…",
+    "a": [
+      "Tacaño",
+      "Valiente",
+      "Sabio"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Choya” es…",
+    "a": [
+      "La cabeza",
+      "La mano",
+      "El pie"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Jalar aire” es…",
+    "a": [
+      "Irse/retirarse",
+      "Tomar un bus",
+      "Dormir"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Bajoneado” es…",
+    "a": [
+      "Triste/desanimado",
+      "Muy contento",
+      "Avergonzado"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Chambres” son…",
+    "a": [
+      "Chismes",
+      "Plantas",
+      "Cuartos pequeños"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Charamusca” es…",
+    "a": [
+      "Hielo de sabores (bolis)",
+      "Dulce de panela",
+      "Refresco embotellado"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Choza” es…",
+    "a": [
+      "Casa",
+      "Carro",
+      "Comida"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Dar casaca” es…",
+    "a": [
+      "Engañar/hablar paja",
+      "Dar una chaqueta",
+      "Ceder el puesto"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Dar jaque” es…",
+    "a": [
+      "Fastidiar/acusar",
+      "Ganar en ajedrez",
+      "Escapar"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Colgar los guantes” es…",
+    "a": [
+      "Retirarse",
+      "Pelear",
+      "Rendirse un momento y seguir"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Barajarla más despacio” es…",
+    "a": [
+      "Explicar con calma",
+      "Jugar cartas",
+      "Ir más lento al manejar"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Está yuca” significa…",
+    "a": [
+      "Está difícil",
+      "Está fácil",
+      "Está sucio"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Encachimbado(a)” es…",
+    "a": [
+      "Muy enojado(a)",
+      "Muy cansado(a)",
+      "Muy confundido(a)"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Jamar” es…",
+    "a": [
+      "Comer",
+      "Dormir",
+      "Cantar"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Pisto” es…",
+    "a": [
+      "Dinero",
+      "Un postre",
+      "Un arma"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Bacanear” es…",
+    "a": [
+      "Divertirse",
+      "Trabajar",
+      "Correr"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Cachada” es…",
+    "a": [
+      "Ganga/Oferta",
+      "Golpe",
+      "Tarea"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Hablar papaya” es…",
+    "a": [
+      "Hablar tonteras",
+      "Hablar despacio",
+      "Hablar en público"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Cipotada” es…",
+    "a": [
+      "Grupo de niños",
+      "Mucho dinero",
+      "Una banda"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Vaya pues” se usa para…",
+    "a": [
+      "Despedida/conformidad",
+      "Saludo formal",
+      "Insulto"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Al suave” significa…",
+    "a": [
+      "Con calma",
+      "Con miedo",
+      "Con fuerza"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Chero(a)” es…",
+    "a": [
+      "Amigo(a)",
+      "Pareja",
+      "Jefe"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Caites” son…",
+    "a": [
+      "Sandalias",
+      "Galletas",
+      "Sombreros"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Guacal” es…",
+    "a": [
+      "Recipiente/tina plástica",
+      "Animal pequeño",
+      "Sombrero"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Trucha” es…",
+    "a": [
+      "Atento/Pilas",
+      "Triste",
+      "Ebrio"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Chamba” es…",
+    "a": [
+      "Trabajo",
+      "Cama",
+      "Fiesta"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Metido(a)” es…",
+    "a": [
+      "Entrometido(a)",
+      "Cansado(a)",
+      "Hambriento(a)"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Guaro” es…",
+    "a": [
+      "Aguardiente/licor",
+      "Gallo de pelea",
+      "Café fuerte"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Cabal” significa…",
+    "a": [
+      "Exacto/Justo",
+      "Más o menos",
+      "Muy lejos"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Paja” es…",
+    "a": [
+      "Mentira/Excusa",
+      "Cabello",
+      "Comida de gallina"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Pachanga” es…",
+    "a": [
+      "Fiesta",
+      "Pelea",
+      "Venta"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Salú” se usa como…",
+    "a": [
+      "Saludo/despedida",
+      "Insulto",
+      "Pedido de ayuda"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“¿Qué ondas?” significa…",
+    "a": [
+      "¿Qué tal?",
+      "¿Qué hora es?",
+      "¿Dónde estás?"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Bolo” también puede decirse…",
+    "a": [
+      "Hasta las chanclas (muy ebrio)",
+      "Muy elegante",
+      "Muy puntual"
+    ],
+    "c": 0
+  },
+  {
+    "q": "“Chambroso(a)” es…",
+    "a": [
+      "Chismoso(a)",
+      "Trabajador(a)",
+      "Dormilón(a)"
+    ],
+    "c": 0
+  }
+]
