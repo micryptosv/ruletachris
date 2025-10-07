@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ruleta Caliche PWA</title>
+<link rel="manifest" href="./manifest.webmanifest">
+<meta name="theme-color" content="#0b4db3">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<!-- Intro -->
+<section id="intro">
+  <div class="intro-wrap">
+    <!-- Coloca tu video en assets/intro.mp4 -->
+    <video id="introVideo" autoplay muted playsinline preload="auto">
+      <source src="./assets/intro.mp4" type="video/mp4" />
+      Tu navegador no soporta el video.
+    </video>
+    <button id="skipIntro">Saltar</button>
+  </div>
+</section>
+
+<!-- App -->
+<main class="app" id="app">
+  <h1>Ruleta Caliche Salvadoreño</h1>
+  <button id="openConfig" class="settings-btn" title="Configurar premios">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm8.94-2.88-.97-.56a7.97 7.97 0 0 0 0-1.12l.97-.56a.75.75 0 0 0 .27-1.03l-1.5-2.6a.75.75 0 0 0-1.02-.28l-1.1.64a7.8 7.8 0 0 0-.97-.56l-.17-1.28a.75.75 0 0 0-.74-.65h-3a.75.75 0 0 0-.74.65l-.17 1.28c-.33.14-.65.32-.97.56l-1.1-.64a.75.75 0 0 0-1.02.28l-1.5 2.6a.75.75 0 0 0 .27 1.03Z"/></svg>
+    Config.
+  </button>
+
+  <div class="wheel-area">
+    <div class="pointer"></div>
+    <canvas id="wheel"></canvas>
+  </div>
+
+  <div class="controls">
+    <button id="spinBtn" class="btn">SPIN</button>
+  </div>
+
+  <div id="hint" class="prize-hint">¡Gira la ruleta para responder una pregunta! 🔄</div>
+
+  <!-- Modal Pregunta -->
+  <section id="qModal" class="modal" aria-hidden="true">
+    <div class="card">
+      <h2 id="qTitle">Pregunta</h2>
+      <p class="muted">Caliche salvadoreño · 3 opciones</p>
+      <div id="qOptions" class="options"></div>
+      <div class="row-actions" style="margin-top:16px;">
+        <button class="btn-sec" id="closeQuestion">Cerrar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal Resultado -->
+  <section id="rModal" class="modal" aria-hidden="true">
+    <div class="card result">
+      <h3 id="rTitle" class="ok">¡Correcto!</h3>
+      <p id="rMsg">Has respondido bien.</p>
+      <div id="rPrize" class="prize" style="display:none;">Premio: ...</div>
+      <div class="row-actions">
+        <button class="btn" id="rOk">OK</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal Configuración (Premios) -->
+  <section id="cModal" class="modal" aria-hidden="true">
+    <div class="card">
+      <h2>Editar premios</h2>
+      <p class="muted">Asigna el texto del premio para cada segmento (Premio 1 a Premio 12). Importa/Exporta JSON si deseas.</p>
+      <div id="formGrid" class="form-grid"></div>
+      <div class="config-actions">
+        <button id="saveCfg" class="btn">Guardar</button>
+        <button id="cancelCfg" class="btn btn-cancel">Cancelar</button>
+        <button id="resetCfg" class="btn btn-reset" title="Restablecer valores por defecto">Restablecer</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>Hecho con 💙 para practicar el caliche 🇸🇻 · PWA</footer>
+</main>
+
+<script src="./app.js"></script>
+</body>
+</html>
